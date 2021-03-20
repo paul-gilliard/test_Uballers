@@ -1,17 +1,58 @@
 <?php
 
-
+/**
+ * Class User
+ */
 class User
 {
+    /**
+     * @var String $nom
+     */
     private $nom;
+    /**
+     * @var String $prenom
+     */
     private $prenom;
+    /**
+     * @var  String $mail
+     */
     private $mail;
+    /**
+     * @var String $password
+     */
     private $password;
-    private $date;
+    /**
+     * @var Date $birthDate
+     */
+    private $birthDate;
+    /**
+     * @var String $genre
+     */
     private $genre;
 
     /**
-     * @return mixed
+     * User constructor.
+     * @param String $prenom
+     * @param String $nom
+     * @param String $mail
+     * @param String $password
+     * @param Date $birthDate
+     * @param String $genre
+     */
+    public function __construct($prenom, $nom, $mail, $password , $birthDate, $genre) {
+
+        $this->setPrenom($prenom);
+        $this->setNom($nom);
+        $this->setMail($mail);
+        $this->setPassword($password);
+        $this->setBirthDate($birthDate);
+        $this->setGenre($genre);
+
+    }
+
+
+    /**
+     * @return String
      */
     public function getNom()
     {
@@ -19,7 +60,7 @@ class User
     }
 
     /**
-     * @param mixed $nom
+     * @param String $nom
      */
     public function setNom($nom): void
     {
@@ -27,7 +68,7 @@ class User
     }
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getPrenom()
     {
@@ -35,7 +76,7 @@ class User
     }
 
     /**
-     * @param mixed $prenom
+     * @param String $prenom
      */
     public function setPrenom($prenom): void
     {
@@ -43,7 +84,7 @@ class User
     }
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getMail()
     {
@@ -51,7 +92,7 @@ class User
     }
 
     /**
-     * @param mixed $mail
+     * @param String $mail
      */
     public function setMail($mail): void
     {
@@ -59,7 +100,7 @@ class User
     }
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getPassword()
     {
@@ -67,7 +108,7 @@ class User
     }
 
     /**
-     * @param mixed $password
+     * @param String $password
      */
     public function setPassword($password): void
     {
@@ -75,23 +116,23 @@ class User
     }
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getDate()
     {
-        return $this->date;
+        return $this->birthDate;
     }
 
     /**
-     * @param mixed $date
+     * @param String $birthDate
      */
-    public function setDate($date): void
+    public function setBirthDate($birthDate): void
     {
-        $this->date = $date;
+        $this->birthDate = $birthDate;
     }
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getGenre()
     {
@@ -99,7 +140,7 @@ class User
     }
 
     /**
-     * @param mixed $genre
+     * @param String $genre
      */
     public function setGenre($genre): void
     {
