@@ -79,6 +79,16 @@ html{
 
 }
 
+#container-registration2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e3dddd;
+    margin-top: 8%;
+
+}
+
 .item-inscription1
 {
     background-color: #e3dddd;

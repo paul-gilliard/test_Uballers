@@ -98,8 +98,7 @@ if($_SESSION['user']!=""){ #Utilisateur connecté
         </div>
 
 
-        <br><br><br><br>
-
+        <div id="container-registration2">
         <b> <label style="margin-left: 5%;" >Date de naissance</label></b>
 
          <div class = item-inscription-date>
@@ -200,12 +199,13 @@ if($_SESSION['user']!=""){ #Utilisateur connecté
         </div>
 
         <div class="conditions"> En cliquant sur inscription, <a href="">vous acceptez nos <a href="" > Conditions </a> et indiquez que vous avez lu notre
-                <a href="" > Politique d'utilisation des données </a>, y compris notre <a href="" > Utilisation des cookies</a>. Vous pourrez recevoir des notifications
+                <a href="" > Politique d'utilisation des données</a>, y compris notre <a href="" > Utilisation des cookies</a>. Vous pourrez recevoir des notifications
         par texto de la part de Facebook et pouvez vous désabonner à tout moment.
         </div>
         <br>
         <div class="bouton-inscription">
             <input type="submit" value='Inscription' id="bouton-inscription">
+        </div>
         </div>
         </form>
     </body>
