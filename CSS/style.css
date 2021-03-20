@@ -1,0 +1,184 @@
+*{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+html{
+    background-color: #e3dddd;
+}
+.item-inscription1
+{
+    background-color: #e3dddd;
+    display: flex;
+    flex-direction: row;
+}
+.wrap-inscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+input
+{
+    padding: 10px;
+}
+.Titre
+{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+@media (max-width:700px ) {
+    #bouton-connexion {
+        padding: 0.5em 1.7em;
+    }
+
+    .input-login{
+        padding: 2.6%;
+    }
+
+    .label-login{
+        font-size: 60%;
+
+    }
+}
+
+    .input-login {
+        display: inline-block;
+        width: 80%;
+        min-width: 130px;
+        margin: 5px;
+        border-radius: 0;
+        font-size: 0.8em;
+
+    }
+
+    .item-connexion2 {
+        display: inline-block;
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 50%;
+        font-size: larger;
+
+    }
+    .item-connexion3{
+        display: block;
+        margin-top: 1.4%;
+        margin-left: 1%;
+        width: 50%;
+
+    }
+
+
+    .item-inscription-date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-top: 20px;
+        width: max-content;
+    }
+
+    .small_href_date {
+        font-size: 60%;
+        height: 25px;
+        color: #3b5998;
+        text-decoration: none;
+
+    }
+
+    .item-inscription-genre {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        width: 20%;
+        margin-top: 20px;
+        font-size: large;
+    }
+
+    .item-connexion1 {
+        background-color: #3b5998;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 80%;
+        height: 120px;
+        padding-left: 4%;
+
+    }
+
+
+    #container-login {
+        flex-wrap: wrap;
+        background-color: beige;
+    }
+
+    #container-registration {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #e3dddd;
+
+    }
+
+    .small_href {
+        font-size: 80%;
+        height: 20px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .label-login {
+        width: 200px;
+        height: 20px;
+        color: white;
+        padding-left: 5px;
+
+    }
+
+    .bouton-connexion {
+        background-color: #4e71ba;
+        margin-bottom: auto;
+        border: none;
+        color: white;
+        text-align: center;
+    }
+
+    .conditions {
+        padding-top: 15px;
+        margin-top: 20px;
+        margin-left: 5%;
+        font-size: 80%;
+        display: block;
+        width: 60%;
+
+    }
+
+    .conditions a {
+        text-decoration: none;
+        color: #3b5998;
+    }
+
+    .bouton-inscription {
+        padding-top: 15px;
+        margin-left: 5%;
+    }
+
+    #bouton-inscription {
+        border-radius: 8px;
+        font-weight: bold;
+        color: white;
+        padding: 1em 5em;
+        background-color: #56953e;
+    }
+
+    #bouton-connexion {
+        margin-top: 1.7em;
+        font-size: 100%;
+    }
+

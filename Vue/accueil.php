@@ -23,7 +23,10 @@ if ($_SESSION['user']=="") #Utilisateur non connecté
 $user = unserialize($_SESSION['user']); #Récupération de l'user pour afficher ses informations
 
 echo ("Bonjour ". $user->getPrenom());
+
 ?>
+
+<a href="../Controller/logout.php"> Deconnexion </a>
 </body>
 </html>
 

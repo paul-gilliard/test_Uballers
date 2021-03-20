@@ -46,7 +46,7 @@ if ($SuccesConnection == true) {
         $user->setPassword($password);
 
         #Passage de l'USER dans la Session
-        $_SESSION["user"] = $user;
+        $_SESSION["user"] = serialize($user);
         $_SESSION["MessageInscription"] = "Inscription réussi avec Succès";
 
 
