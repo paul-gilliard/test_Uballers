@@ -12,7 +12,7 @@ PHP: 2H
 JS : 1h
 CSS-HTML : 4H
 
-Rajoutons à tout ça 1 ou 2 heures de documentations et de réglage de détails
+Rajoutons à tout ça 1 ou 2 heures de documentations et de réglages de détails
 
 
 
